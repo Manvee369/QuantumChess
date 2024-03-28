@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main{
+    background-color: black;
+}
+
+#page{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bodychess{
+    width: 50%;
+    height: 89%;
+    border: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+    background: url("https://media.istockphoto.com/id/1144632146/photo/blue-motion-blur-abstract-background.webp?b=1&s=170667a&w=0&k=20&c=M_ocAmmIZF3y5mUEW3LXKj4bU2-NRbtbarViZtabQE4=");
+    background-position: center;
+    background-size: 700%;
+}
+
+.row{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+}
+
+.elem{
+    width: 80px;
+    height: 80px;
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+.black{
+    background-color: #000;
+    border: 1px solid #000;
+}
+
+.last{
+    border: 1px solid #fff;
+}
