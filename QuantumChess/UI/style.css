@@ -18,7 +18,7 @@
 
 #bodychess{
     width: 50%;
-    height: 89%;
+    height: 95%;
     border: 1px solid #fff;
     display: flex;
     flex-direction: column;
@@ -32,11 +32,12 @@
     height: fit-content;
     display: flex;
     flex-direction: row;
+    overflow: hidden;
 }
 
 .elem{
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     background-color: transparent;
     border: 1px solid #fff;
 }
